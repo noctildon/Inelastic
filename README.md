@@ -4,7 +4,8 @@ This repo contains the code to produce the figures and calculations in [the pape
 
 |Filename   |Description   |
 |---|---|
-|DMfiles/  | density matrices for each transitions (including BIGSTICK raw output and the converted)  |
+|DMfiles/  | Density matrices for each transitions (including BIGSTICK raw output and the converted)  |
+|sdpfb.sps  | Truncation setup, the columns being n,l,j,weight. Protons have the first half, neutrons have the second half. |
 |res2den.py  | Convert BIGSTICK outputs to the compatible inputs for 7operator|
 |ar40_s.res  | BIGSTICK output for ar40 strength function of Gamow-Teller  |
 |neutrino multipole.nb   | Mathematica code to calculate neutrino scattering in multipole formalism|
